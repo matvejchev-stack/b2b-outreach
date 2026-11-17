@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "campaign_id": "fictional-campaign",
+  "package_id": "fictional-001",
+  "sender": "sender@example.invalid",
+  "to": ["recipient@example.invalid"],
+  "cc": [],
+  "bcc": [],
+  "recipient_id": "fictional-person-001",
+  "country": "RU",
+  "language": "ru",
+  "message_kind": "first_contact",
+  "subject": "Тема персонального письма",
+  "body": {
+    "path": "email.txt",
+    "sha256": "REPLACE_WITH_ACTUAL_SHA256"
+  },
+  "expected_attachment_kinds": ["letter", "presentation"],
+  "attachments": [
+    {
+      "path": "letter.pdf",
+      "sha256": "REPLACE_WITH_ACTUAL_SHA256",
+      "kind": "letter",
+      "recipient_id": "fictional-person-001",
+      "language": "ru",
+      "document_date": "YYYY-MM-DD"
+    },
+    {
+      "path": "presentation.pdf",
+      "sha256": "REPLACE_WITH_ACTUAL_SHA256",
+      "kind": "presentation",
+      "recipient_id": "fictional-person-001",
+      "language": "ru"
+    }
+  ]
+}

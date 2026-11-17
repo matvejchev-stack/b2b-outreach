@@ -1,0 +1,20 @@
+{
+  "name": "matveychev-b2b",
+  "interface": {
+    "displayName": "Matveychev B2B"
+  },
+  "plugins": [
+    {
+      "name": "b2b-outreach",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

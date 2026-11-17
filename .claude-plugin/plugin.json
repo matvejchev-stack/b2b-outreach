@@ -1,0 +1,9 @@
+{
+  "name": "b2b-outreach",
+  "version": "0.2.0",
+  "description": "B2B-кампании: от продукта и поиска пути к ответственному до персональных писем, презентаций и разрешённой отправки.",
+  "author": {
+    "name": "Александр Матвейчев"
+  },
+  "repository": "https://github.com/matvejchev-stack/b2b-outreach"
+}
